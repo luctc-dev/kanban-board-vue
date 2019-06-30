@@ -8,60 +8,8 @@
 
         <!-- Content -->
         <div class="container">
-            <div class="main-content">
-                <div class="page-title">
-                    <span>Kangban Board</span>
-                    <a href="/create-backlog" class="create-new-item">Create New Item</a>
-                </div>
-                <div class="wrapper-board">
-                    <div class="row">
-                        <div class="item">
-                            <div class="col-title">Todo</div>
-                            <div class="backlogs-item">
-                                <div class="project">Landmark 81 Website</div>
-                                <div class="title">Phân tich dự án</div>
-                                <div class="due-date">Deadline: <span>30/09/2018</span></div>
-                                <div class="phase">Giai đoạn: <span>Front End</span></div>
-                                <div class="assign">@luctc - </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                        <div class="col-title">In Process</div>
-                            <div class="backlogs-item">
-                                <div class="project">Landmark 81 Website</div>
-                                <div class="title">Phân tich dự án</div>
-                                <div class="due-date">Deadline: <span>30/09/2018</span></div>
-                                <div class="phase">Giai đoạn: <span>Front End</span></div>
-                                <div class="assign">@luctc - </div>
-                            </div>
-                        </div>
-
-
-                        <div class="item">
-                            <div class="col-title">Bugs</div>
-                            <div class="backlogs-item">
-                                <div class="project">Landmark 81 Website</div>
-                                <div class="title">Phân tich dự án</div>
-                                <div class="due-date">Deadline: <span>30/09/2018</span></div>
-                                <div class="phase">Giai đoạn: <span>Front End</span></div>
-                                <div class="assign">@luctc - </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="col-title">Done</div>
-                            <div class="backlogs-item">
-                                <div class="project">Landmark 81 Website</div>
-                                <div class="title">Phân tich dự án</div>
-                                <div class="due-date">Deadline: <span>30/09/2018</span></div>
-                                <div class="phase">Giai đoạn: <span>Front End</span></div>
-                                <div class="assign">@luctc - </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <router-view></router-view>
+            
             <div class="side-bar"></div>
             <div class="clearfix"></div>
         </div>
